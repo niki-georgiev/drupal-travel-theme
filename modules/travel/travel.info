@@ -1,0 +1,8 @@
+name = Travel
+description = Travel Theme Custom Modules.
+core = 7.x
+package = "Travel"
+
+configure = admin/structure/travel
+dependencies[] = ctools (>1.5)
+files[] = travel.module

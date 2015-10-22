@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * Implement hook_ctools_plugin_api().
+ *
+ * Tells ctools, page manager and panels, that we have a template ready
+ */
+
+include_once drupal_get_path('module', 'travel_pages'). '/includes/travel_pages.pages_default.inc';
+
+function travel_pages_ctools_plugin_api($module, $api) {
+
+  if ($module == 'panels_mini' && $api == 'panels_default') {
+    return array(
+    	'version' => 1
+    	//'file' => 'travel_pages.pages_default.inc',
+        //'path' => drupal_get_path('module', 'travel_pages'). 'includes',
+    );
+  }
+  if ($module == 'page_manager' && $api == 'pages_default') {
+    return array(
+      'version' => 1,
+      //'file' => 'travel_pages.pages_default.inc',
+      //'path' => drupal_get_path('module', 'travel_pages'). 'includes',
+    );
+  }
+}

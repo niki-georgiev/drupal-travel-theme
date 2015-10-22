@@ -1,0 +1,11 @@
+name = Travel Panel Panes
+description = Custom Travel Panel Panes
+core = 7.x
+package = "Travel"
+
+dependencies[] = panels (>=3.4)
+dependencies[] = ctools (>=1.4)
+dependencies[] = page_manager
+
+
+

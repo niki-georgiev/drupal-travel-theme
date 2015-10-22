@@ -1,0 +1,11 @@
+name = Travel Panel Styles
+description = Custom Travel Panel Styles
+core = 7.x
+package = "Travel"
+
+dependencies[] = panels (>=3.4)
+dependencies[] = ctools (>=1.4)
+dependencies[] = page_manager
+dependencies[] = panels_everywhere
+
+

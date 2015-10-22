@@ -1,0 +1,17 @@
+name = Travel Pages
+description = Custom Travel Pages (ex: frontpage, contact us page)
+core = 7.x
+package = "Travel"
+
+dependencies[] = panels (>=3.4)
+dependencies[] = ctools (>=1.4)
+dependencies[] = page_manager
+dependencies[] = panels_everywhere
+
+#files[] = includes/travel.pages_default.inc
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Page manager default pages
+;;;;;;;;;;;;;;;;;;;;;
+ api[page_manager][pages_default][version] = 1
+ api[page_manager][pages_default][path] = includes
