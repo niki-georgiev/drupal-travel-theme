@@ -1,0 +1,18 @@
+/*
+	# System theme styles config
+	-----------------------------------------------------------------------------
+	file: travel/sass/system/_system.scss
+	-----------------------------------------------------------------------------
+    Base system theme styles from theme functions
+*/
+
+@import "comment.theme";
+@import "field.theme";
+@import "breadcrumb.theme";
+@import "form.theme";
+@import "image.theme";
+@import "links.theme";
+@import "menutree.theme";
+@import "morelink.theme";
+@import "pager.theme";
+@import "system.messages.theme";

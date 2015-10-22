@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/**
+
+# Travel Theme main scss file
+--------------------------------------------------------------------------------
+file: /sass/travel.scss
+--------------------------------------
+This file collects all the elements thats needed to create the travel.css file
+change the travel.info file to include the travel.css file
+
+--------------------------------------
+example in travel.info file:
+
+stylesheets[all][] = css/travel.css
+
+ */
+
+// -- Libraries ----------------------------------------------------------------
+@import "materialize/materialize.scss";
+
+
+//-- Configuration -------------------------------------------------------------
+@import "config";
+
+//-- Mixins & common elements --------------------------------------------------
+@import "mixins";
+@import "common";
+
+//-- Design & type elements ----------------------------------------------------
+@import "typography";
+@import "design";
+
+//-- System Theme elements  ----------------------------------------------------
+@import "system/system";
+
+//-- Layout elements -----------------------------------------------------------
+@import "layout";
+
+//-- Panel Pane elements -------------------------------------------------------
+@import "partials/panes/pane";
+
+//-- Views elements ------------------------------------------------------------
+@import "partials/views/view";
+
+//-- Partials ------------------------------------------------------------------
+
+//-- Site Header
+@import "partials/header/_header";
+@import "partials/header/_main-menu";
+//-- Site Footer
+@import "partials/footer/_footer";
+@import "partials/footer/_footer-menu";
+//-- Tablet
+@import "partials/tablet/_header-tablet";
+@import "partials/tablet/_main-menu-tablet";
+@import "partials/tablet/_footer-tablet";
+@import "partials/tablet/_footer-menu-tablet";
+
+//-- Content Type: Basic Page (default content type) ---------------------------
+@import "partials/page/_page-header";
+@import "partials/page/_page-body";
+@import "partials/page/_page-footer";
+@import "partials/page/_page-teaser-view";
+
+//-- Content Type: Article (default content type) ------------------------------
+@import "partials/article/_article-header";
+@import "partials/article/_article-body";
+@import "partials/article/_article-footer";
+@import "partials/article/_article-teaser-view";
+
+//-- Content Type: Trips (custom content type) ---------------------------------
+@import "partials/trips/_trips-header";
+@import "partials/trips/_trips-body";
+@import "partials/trips/_trips-footer";
+@import "partials/trips/_trips-teaser-view";
+
+//-- Taxonomy Terms ------------------------------------------------------------
+// @import "partials/taxonomy/tags/_tags_list";
+
+//-- Search Page ---------------------------------------------------------------
+@import "partials/search/search-page";
+
+//-- Forms ---------------------------------------------------------------------
+@import "partials/forms/form";
+
+//-- Sliders -------------------------------------------------------------------
+@import "partials/slider/slider";
+
+//-- Other Page elements -------------------------------------------------------
+@import "partials/tablet/pager-tablet";
+
+//-- Not Found and Maintenance page ---------------------------------------------
+@import "partials/404";
+@import "partials/maintenance";

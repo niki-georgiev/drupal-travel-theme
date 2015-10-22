@@ -1,0 +1,50 @@
+/*
+ * ==========================================================
+ * Panels admin css
+ * ==========================================================
+ */
+
+
+
+/*
+ * Some Default Styles
+ */
+#panels-dnd-main div.panel-panel div.panel-region h2.label {
+  line-height: 40px;
+  margin: 0;
+}
+#panels-dnd-main div.panel-panel div.panel-region {
+  padding: 0;
+}
+/*
+ * Site template admin style
+ */
+
+.panels-dnd .panel-display .panel-panel {
+  width: 100%; 
+  clear: both;
+}
+.panels-dnd .panel-display .inside {
+
+}
+.panels-dnd .panel-region:last-child {
+  margin-bottom: 1.5%;
+}
+
+
+.travel-frontpage {
+	overflow: hidden;
+}
+.panels-dnd .form-wrapper {
+	clear: both;
+}
+
+.panels-dnd #panel-region-header {}
+.panels-dnd #panel-region-nav {}
+.panels-dnd #panel-region-msg {}
+.panels-dnd #panel-region-content {}
+.panels-dnd #panel-region-footer {}
+
+.panels-dnd .panel-1col {
+
+}

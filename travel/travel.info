@@ -1,0 +1,46 @@
+name = Travel
+description = Travel Theme
+core = 7.x
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+stylesheets[all][] = css/travel.css
+;stylesheets[all][] = css/style.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+scripts[] = js/vendor/modernizr.js
+scripts[] = js/vendor/materialize.min.js
+scripts[] = js/travel.js
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Panel Layouts and Styles
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+plugins[panels][layouts] = plugins/panels/layouts
+
+
